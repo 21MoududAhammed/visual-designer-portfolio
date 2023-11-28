@@ -229,6 +229,9 @@ footer input{
    gap: 50px;
    text-align: center;
   }
+  .banner-title {
+    font-size: 58px;
+  }
   
 .trusted-companies {
   display: grid;
@@ -254,4 +257,22 @@ footer {
 footer > div{
   width: 100%;
 }
+}
+
+/* responsive for tablet design  */
+@media screen and (min-width: 768px) and (max-width: 991px){
+  *{
+    background-color: lightblue;
+  }
+  .testimonials {
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer > div{
+    width: 100%;
+  }
 }
