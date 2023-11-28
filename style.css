@@ -221,3 +221,37 @@ footer input{
 .social-links > img{
     margin-right: 24px;
 }
+
+/* responsive for mobile device  */
+@media screen and (max-width:767px){
+  .banner {
+   flex-direction: column;
+   gap: 50px;
+   text-align: center;
+  }
+  
+.trusted-companies {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.skills {
+  flex-wrap: wrap;
+}
+.skills > div {
+  padding: 30px 20px;
+}
+.latest-works {
+  grid-template-columns: repeat(2, 1fr);
+}
+.testimonials {
+  grid-template-columns: repeat(1, 1fr);
+  
+}
+footer {
+  flex-direction: column;
+  gap: 20px;
+}
+footer > div{
+  width: 100%;
+}
+}
