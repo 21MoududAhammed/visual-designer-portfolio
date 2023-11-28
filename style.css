@@ -261,9 +261,6 @@ footer > div{
 
 /* responsive for tablet design  */
 @media screen and (min-width: 768px) and (max-width: 991px){
-  *{
-    background-color: lightblue;
-  }
   .testimonials {
     grid-template-columns: repeat(2, 1fr);
     
